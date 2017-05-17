@@ -2,13 +2,12 @@
 CommandSpyList = {}
 
 function Initialize(Plugin)
-	dofile(cPluginManager:GetPluginsPath() .. "/InfoReg.lua")
-
 	Plugin:SetName(g_PluginInfo.Name)
 	Plugin:SetVersion(g_PluginInfo.Version)
 
 	cPluginManager:AddHook(cPluginManager.HOOK_EXECUTE_COMMAND, OnExecuteCommand)
 
+	dofile(cPluginManager:GetPluginsPath() .. "/InfoReg.lua")
 	RegisterPluginInfoCommands()
 
 	LOG("Initialised " .. Plugin:GetName() .. " v." .. Plugin:GetVersion())

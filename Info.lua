@@ -3,7 +3,7 @@ g_PluginInfo = {
 	Version = "2",
 	Date = "2016-10-12",
 	SourceLocation = "https://github.com/mathiascode/CommandSpy",
-	Description = [[A plugin for Cuberite that displays commands executed by other players in the chat. To enable and disable CommandSpy, type "/commandspy on" and "/commandspy off" in the chat. ]],
+	Description = [[A plugin for Cuberite that displays commands executed by other players in the chat. To enable and disable CommandSpy, type "/commandspy on" and "/commandspy off" in the chat.]],
 
 	AdditionalInfo =
 	{
